@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+.topnav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #F9A112;
+	overflow: hidden;
+	
+}
+
+.topnav li{
+	float: left;
+	font-family: Archivo;
+
+}
+
+.topnav li a{
+	text-decoration: none;
+	display: block;
+	color: #B00008;
+	padding: 10px;
+
+	
+}
+
+.topnav li a:hover{
+	background-color: #FFFC3A;
+	color: #B00008;
+
+}
+
+.active{
+	background-color: #FFFC3A;
+}
+
+.gizlimenu{
+	display: none;
+	position: absolute;
+	border-width: 0px;
+	background-color: #F9A112;
+}
+
+.goster:hover .gizlimenu{
+ display: block;
+}
